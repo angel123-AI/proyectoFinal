@@ -9,12 +9,14 @@ public class Vertice {
         this.columna = columna;
     }
     public int getId() {
+
         return id;
     }
     public int getFila(){
         return fila;
     }
     public int getColumna(){
+
         return columna;
     }
 
