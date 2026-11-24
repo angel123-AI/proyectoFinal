@@ -21,6 +21,7 @@ public class Vertice {
     }
 
     public String toString(){
+
         return "Vertice" + id + "(" + fila + ", " + columna + ")";
     }
 
