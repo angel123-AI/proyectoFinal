@@ -9,12 +9,15 @@ public class Arcos {
         this.costo = costo;
     }
     public Vertice getOrigen(){
+
         return origen;
     }
     public Vertice getDestino(){
+
         return destino;
     }
     public int getCosto(){
+
         return costo;
     }
     public Vertice obtenerOtroExtremo(Vertice actual){

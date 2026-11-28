@@ -13,6 +13,7 @@ public class Vertice {
         return id;
     }
     public int getFila(){
+
         return fila;
     }
     public int getColumna(){

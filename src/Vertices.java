@@ -10,8 +10,14 @@ public class Vertices {
         vertices.put(vertice.getId(), vertice);
         return true;
     }
-    public Vertice obtenerVertice(int id) {return vertices.get(id);}
-    public boolean existeVertice(int id) {return vertices.containsKey(id);}
-    public int cantidadVertices() {return vertices.size();}
+    public Vertice obtenerVertice(int id) {
+        return vertices.get(id);
+    }
+    public boolean existeVertice(int id) {
+        return vertices.containsKey(id);
+    }
+    public int cantidadVertices() {
+        return vertices.size();
+    }
 
 }
